@@ -17,13 +17,17 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 ## Icons Only Show POP When They Are Needed.
 
-<img src="" alt="image" border="0" width="350px">
+- Connection not secure icon
 
-<img src="" alt="image" border="0" width="350px">
+  <img src="ASSETS/connection-not-secure.png" alt="image" border="0" width="350px">
 
-<img src="" alt="image" border="0" width="350px">
+- Always know what permissions are granted in a simple icon view
 
-<img src="" alt="image" border="0" width="350px">
+  <img src="ASSETS/location-access.png" alt="image" border="0" width="350px">
+
+- Reader View Everywhere with NO Extension!
+
+  <img src="ASSETS/reader-view.png" alt="image" border="0" width="350px">
 
 
 ## Info
@@ -61,12 +65,12 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 - Fonts
   
-  <img src="" alt="image" border="0" width="350px">
+  <img src="ASSETS/" alt="image" border="0" width="350px">
 
 
 - Import Tabliss Configs
   
-  <img src="" alt="image" border="0" width="350px">
+  <img src="ASSETS/" alt="image" border="0" width="350px">
 
 
 - 
