@@ -61,6 +61,25 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
   [Dark Space - Dynamic Theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
 
+
+## Features
+
+  - Clean New Tab Page with NO Extensions
+
+  - Hover Effects and Light Animations
+
+  - Rounded Corners For Modern Look
+
+  - Distraction Free URL Bar That Shows Only The Needed Icons
+
+  - Distraction Free Browsing There are NO Scrollbars!
+
+  - Efficient configs That Can Help You With Anything. So, no annoying firefox hardening stuff that breaks websites.
+
+  - It's the [FASTEST](https://github.com/yokoffing/Betterfox) + My own modifications to make it even more better.
+
+
+
 ## Setup
 
 - Fonts
@@ -80,11 +99,26 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
   Click on import and locate "tabliss-template.json"
 
-- 
+
+- Changing the search engine
+
+  Go to "about:preferences" and to the search tab
+
+  <img src="ASSETS/default-search-engine.png" alt="image" border="0" width="350px">
+
+  And choose your search engine
 
 
+- Hiding search engine suggestions for cleaner look
+
+  Go to "about:preferences" and to the search tab
+
+  <img src="ASSETS/search-engine-suggestions.png" alt="image" border="0" width="350px">
+
+  Uncheck the blue check mark and remove anything that can be removed. Make sure default search engine is set to Startpage.
 
 
 ## Contributing
 
-Contributions are always welcome!
+Help me improve this and make it perfect!
+
