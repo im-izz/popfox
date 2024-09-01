@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 - Fonts
   
-  <img src="ASSETS/" alt="image" border="0" width="350px">
+  <img src="ASSETS/fonts-setup.png" alt="image" border="0" border-radius="6px" width="350px">
 
 
 - Import Tabliss Configs

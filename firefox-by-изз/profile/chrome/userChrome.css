@@ -260,10 +260,5 @@ menu, menuitem {
 /* CLEANING URL BAR ICONS */
 #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage) > .identity-box-button, #urlbar-label-box {
   background-color: #0000 !important;
-  padding-inline: 4px !important;
-}
-#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage) > .identity-box-button {
-  &:hover:not([open]) {
-    background-color: #232225 !important;
-  }
+  padding-inline: 2px !important;
 }
