@@ -1,11 +1,10 @@
 # MinimalFox User Style for Firefox
 
 <p align="center">
-  <img src="icon.png" alt="POPfox" width="100" height="100">
+  <img src="icon.png" alt="POPfox" width="269" height="269">
 </p>
 
 
-https://github.com/Jamir-boop/minimalisticfox/assets/73477811/b2b9736d-6005-44cb-a219-358267869ad3
 
 
 ## Prerequisites
