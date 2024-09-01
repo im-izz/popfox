@@ -10,11 +10,11 @@ Configs includes user.js and chrome folder for the theme.
 
 - The Fonts That Was Used
 
-[SF Mono](https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg) For UI
+  [SF Mono](https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg) For UI
 
-[SF Arabic](https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg) For Arabic
+  [SF Arabic](https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg) For Arabic
 
-[Hasklig](https://github.com/i-tu/Hasklig/releases/tag/v1.2) For Codes
+  [Hasklig](https://github.com/i-tu/Hasklig/releases/tag/v1.2) For Codes
 
-[Outfit Thin](https://www.dafontfree.io/download/outfit/) For Tabliss New Tab Page Extension
+  [Outfit Thin](https://www.dafontfree.io/download/outfit/) For Tabliss New Tab Page Extension
 
