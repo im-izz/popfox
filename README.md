@@ -65,13 +65,20 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 - Fonts
   
-  <img src="ASSETS/fonts-setup.png" alt="image" border="0" border-radius="6px" width="350px">
+  Go to "about:preferences" and in the general tab scroll down to "Fonts" and click on "Advanced"
+
+  <img src="ASSETS/fonts-setup.png" alt="image" border="0" width="350px">
+
+  Choose these fonts
 
 
 - Import Tabliss Configs
   
-  <img src="ASSETS/" alt="image" border="0" width="350px">
+  Click on the gear icon -top left- and scroll down to settings
 
+  <img src="ASSETS/tabliss-config-import.png" alt="image" border="0" width="350px">
+
+  Click on import and locate "tabliss-template.json"
 
 - 
 
