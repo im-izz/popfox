@@ -22,7 +22,7 @@ Configs includes user.js and chrome folder for the theme.
 
 - Extensions
 
-  Tabliss + [Config](tabliss-template.json)
+  Tabliss + [Config](firefox-by-изз/tabliss-template.json)
 
   uBlock
 
