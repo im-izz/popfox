@@ -14,7 +14,7 @@ Configs includes user.js and chrome folder for the theme.
 
   [SF Arabic](https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg) For Arabic
 
-  [Hasklig](https://github.com/i-tu/Hasklig/releases/tag/v1.2) For Codes
+  [Hasklig](https://github.com/i-tu/Hasklig/releases/download/v1.2/Hasklig-1.2.zip) For Codes
 
-  [Outfit Thin](https://www.dafontfree.io/download/outfit/) For Tabliss New Tab Page Extension
+  [Outfit Thin](https://github.com/Outfitio/Outfit-Fonts/raw/main/fonts/variable/Outfit%5Bwght%5D.ttf) For Tabliss New Tab Page Extension
 
