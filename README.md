@@ -18,3 +18,21 @@ Configs includes user.js and chrome folder for the theme.
 
   [Outfit Thin](https://github.com/Outfitio/Outfit-Fonts/raw/main/fonts/variable/Outfit%5Bwght%5D.ttf) For Tabliss New Tab Page Extension
 
+- Try this in a new profile since this is going to override the prefs.js (user.js) config
+
+- Extensions
+
+  Tabliss + [Config](tabliss-template.json)
+
+  uBlock
+
+  FastForward
+
+  Decentraleyes
+
+
+- Themes
+
+  Shades of Purple (Made by me)
+
+  Dark Space - Dynamic Theme
