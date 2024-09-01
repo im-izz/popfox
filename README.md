@@ -15,14 +15,18 @@ https://github.com/user-attachments/assets/f68ca66d-f042-4529-8a0a-1da803331eeb
 https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 
-## Icons Only Show When They Are Needed.
+## Icons Only Show POP When They Are Needed.
 
-![[ASSETS/]]
+<img src="" alt="image" border="0" width="350px">
 
-![[ASSETS/]]
+<img src="" alt="image" border="0" width="350px">
+
+<img src="" alt="image" border="0" width="350px">
+
+<img src="" alt="image" border="0" width="350px">
 
 
-## Setup
+## Info
 
 - The Fonts That Was Used
 
@@ -52,3 +56,24 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
   Shades of Purple (Made by me)
 
   [Dark Space - Dynamic Theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
+
+## Setup
+
+- Fonts
+  
+  <img src="" alt="image" border="0" width="350px">
+
+
+- Import Tabliss Configs
+  
+  <img src="" alt="image" border="0" width="350px">
+
+
+- 
+
+
+
+
+## Contributing
+
+Contributions are always welcome!
