@@ -6,6 +6,19 @@
 
 Configs includes user.js and chrome folder for the theme.
 
+![[ASSETS/show-record.mp4]]
+
+## Download Progress Bar!
+
+![[ASSETS/download-record.mp4]]
+
+## Icons Only Show When They Are Needed.
+
+![[ASSETS/]]
+
+![[ASSETS/]]
+
+
 ## Setup
 
 - The Fonts That Was Used
