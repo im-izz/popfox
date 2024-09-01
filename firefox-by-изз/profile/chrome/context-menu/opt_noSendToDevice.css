@@ -1,0 +1,31 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: userChrome.css tweaks to remove context menu items in Firefox.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** opt_noSendToDevice.css ***/
+
+/* #context-sendaudio,    /* Email Audio */
+/* #context-sendvideo,    /* Email Video */
+/* #context-sendimage,    /* Email Image */
+/* #context-sendlinktodevice,
+#context-sep-sendlinktodevice,
+#context_sendTabToDevice,
+#context_sendTabToDevice_separator,
+*/
+
+/* #pageAction-panel-emailLink,    /* Email Link */
+
+#context-sendpagetodevice,
+#context-sep-sendpagetodevice,
+#context-sendaudio,
+#context-sendvideo,
+#context-sendimage,
+#pageAction-panel-sendToDevice,
+.sendtab-target[label="Manage Devices…"],
+.sync-menuitem + menuseparator,
+.sendtab-target[label="Send to All Devices"],
+#pageAction-panel-emailLink
+    { display: none !important; }

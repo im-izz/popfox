@@ -1,0 +1,246 @@
+/* NEWTAB PAGE BACKGROUND COLOR */
+
+@namespace url("http://www.w3.org/1999/xhtml");
+
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:privatebrowsing"){
+  body{background-color: #1B1E22 !important;}
+}
+/* PRIVATE NEW TAB PAGE */
+@-moz-document url("about:privatebrowsing"){
+  .search-handoff-button{ background-color: #1B1E22 !important; }
+  .fake-textbox{ color: rgb(200,200,200) !important } 
+}
+
+/* HIDING SCROLLBARS EVERYWHERE */
+
+@namespace url("http://www.w3.org/1999/xhtml");
+:root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
+*{ scrollbar-width: none }
+
+.styled-scrollbars:hover {
+  scrollbar-width: none !important;
+}
+.styled-scrollbars{
+  scrollbar-width: none !important;
+}
+@media{
+  addon-card .addon-description {
+    scrollbar-width: none !important;
+  }
+}
+
+
+/* NEW TAB PAGE WALLPAPER */
+
+@-moz-document url("about:home"), url("about:newtab"), url("about:welcome") {
+  body {
+    background: url("exclusive-wallpapers/white-hd.png") center/cover no-repeat fixed !important;
+
+    @media (prefers-color-scheme: dark) {
+      background: url("exclusive-wallpapers/black-hd.png") center/cover no-repeat fixed !important;
+    }
+  }
+}
+
+
+/* HIDING (SEARCH BOX, PINNED SITES ICONS, PIN ICON, FIREFOX LOGO AND WATERMARK) */
+
+@-moz-document url("about:home"),url("about:newtab"),url("about:privatebrowsing") {
+ .search-wrapper,
+ .search-inner-wrapper,
+ .tile, .topsite-form > .form-input-container > .fields-and-preview > .top-site-outer,
+ .icon-pin-small,
+ .newtab-topsites-use-image-link,
+ .sponsored-label, .logo-and-wordmark,
+ .section-title { display: none !important; }
+}
+
+
+/* CUSTOMIZING PINNED SITES */
+
+.top-site-outer {
+  width: fit-content !important; /* FITTING THE TEXT TO THE BOX */
+  display: inline-block !important;
+  margin-left: auto !important; /* ALIGNING CENTER */
+  margin-right: auto !important; /* ALIGNING CENTER */
+  margin-block-end: 38px !important; /* MARGIN BETWEEN PINNED SITES AND RECENT ACTIVITY */
+}
+/* FIX AUTO HIDE LAST 2 PINNED SITES */
+/*.ds-top-sites {
+  display: inline !important;
+}*/
+/* FIX AUTO HIDE LAST RECENT ACTIVITY CARD */
+.ds-highlights .hide-for-narrow {
+  display: block !important;
+}
+
+/* GAP or SPACE BETWEEN PINNED SITES */
+.top-sites-list {
+  grid-gap: 12px !important;
+}
+/* FIXING TOP PADDING AFTER REMOVING THE SEARCH BOX */
+.top-site-outer .title {
+  padding-top: 0 !important;
+}
+/* PINNED SITES TEXT BIGGER FONT */
+.top-site-outer .title {
+  font: -moz-list !important;
+}
+/* NO HOVER HIGHLIGHT ON PINNED SITES */
+.top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
+  background: #00000000 !important;
+}
+/* CUSTOMIZING WALLPAPER ATTRIBUTION */
+.wallpaper-attribution {
+  padding: 0 0 !important;
+  align-self: center !important;
+  color: light-dark(#00000080, #e0daff70) !important;
+}
+/* HIDE THE 3 DOTS BACKGROUND ABOVE PINNED SITES */
+.top-site-outer .context-menu-button {
+  background-color: #00000000 !important;
+  fill: #ffffff00 !important;
+}
+/* CHANGE THE 3 DOTS HOVER BACKGROUND ABOVE PINNED SITES */
+.top-site-outer .context-menu-button:hover {
+  fill: light-dark(#0000009C, #EFECFF9C) !important;
+}
+/* CUSTOMIZE FONT COLOR */
+:root[lwt-newtab-brighttext] {
+  --newtab-contextual-text-primary-color: light-dark(#000000b0, #ffffffb0) !important;
+}
+/* ALWAYS SET TO 0 */
+main section {
+  margin-bottom: 0 !important;
+}
+.top-sites-list {
+  /*! padding-top: -1px !important; */
+}
+.top-site-outer .top-site-inner > a {
+  padding: 0 !important;
+}
+.collapsible-section {
+  padding: 0 !important;
+}
+.non-collapsible-section {
+  padding: 0 !important;
+}
+.body-wrapper.on {
+  margin-bottom: 0px !important;
+}
+/* CUSTOMIZE PINNED SITES ICONS */
+.top-site-outer .tile .icon-wrapper {
+  border-radius: 4px !important;
+  width: 80px !important;
+  height: 80px !important;
+}
+.top-site-outer .default-icon, .top-site-outer .search-topsite {
+  background-size: 32px !important;
+  height: 80px !important;
+  width: 80px !important;
+}
+.top-site-outer .top-site-icon {
+  background-color: #FFF0 !important;
+}
+
+
+/* RECENT ACTIVITY CUSTOMIZATION */
+
+/* HIDE RECENT ACTIVITY TITLE */
+.section-top-bar {
+  display: none !important;
+}
+
+/* CUSTOMIZE RECENT ACTIVITY CARDS */
+
+/* LOADING/BLANK PREVIEW CARD BACKGROUND */
+.card-outer .card-preview-image-outer {
+  background-color: #4d4d4d4a !important;
+}
+.card-outer {
+  background: light-dark(#E9E9E970, #16161670) !important;
+}
+/* CARD LINK FONT SIZE */
+.ds-highlights .section .section-list .card-outer .card-host-name {
+  font-size: 10.5px !important;
+}
+/* CARD TITLE FONT SIZE */
+.ds-highlights .section .section-list .card-outer .card-title {
+  margin: -4px 0 2px !important;
+  font-size: 12px !important;
+}
+/* CARD TITLE & LINK PADDING */
+.compact-cards .card-outer .card-details {
+  padding: 8px 12px !important;
+}
+.ds-highlights .section .section-list .card-outer .card-host-name {
+  padding-right: 16px !important;;
+}
+/* CARD TITLE COLOR */
+.outer-wrapper a {
+  color: light-dark(#000000b0, #ffffffb0) !important;
+}
+/* CRAD TITLE HOVER COLOR */
+.card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title {
+  color: light-dark(#f185ff, #d0c7ff) !important;
+}
+/* CARD SITE NAME COLOR */
+.card-outer .card-host-name {
+  color: light-dark(rgba(24, 24, 24, 0.7), rgba(251, 251, 251, 0.7)) !important;
+}
+/* CARD ACTIVITY ICON */
+.compact-cards .card-outer .card-context .card-context-icon {
+  fill: light-dark(rgba(24, 24, 24, 0.7), rgba(251, 251, 251, 0.7)) !important;
+}
+/* CARD PREVIEW SEPARATOR WIDTH AND COLOR */
+.card-outer .card-preview-image-outer::after {
+  border-bottom: 1px solid #aeaeae50 !important;
+}
+/* CARD SIZE */
+.ds-highlights .section .section-list .card-outer {
+  height: 164px !important;
+}
+/* CARDS WIDTH & CENTER ALIGNING */
+.ds-highlights.sections-list {
+  width: 89% !important;
+  margin: 0 auto !important;
+}
+/* CUSTOM CARD CONTEXT ICON */
+.compact-cards .card-outer .card-context {
+  background-color: #282b2f00 !important;
+  top: 109px !important;
+  inset-inline-end: 2px !important;
+}
+.card-context-icon.icon {
+  background-size: 12px !important;
+}
+/*.compact-cards .card-outer .card-context .card-context-icon {
+  fill: var(--newtab-text-secondary-color) !important;
+}*/
+.compact-cards .card-outer .card-context::after {
+  border: 0px !important;
+  clip-path: border-box !important;
+}
+/* CUSTOM CARD 3 DOTS */
+.card-outer .context-menu-button {
+  background-color: #0000 !important;
+  border: 0 !important;
+  outline: 0px solid var(--newtab-border-color) !important;
+  outline-width: 0 !important;
+  box-shadow: 0 2px rgba(12, 12, 13, 0.0) !important;
+  inset-inline-end: 4px !important;
+  top: 2px !important;
+}
+
+/* SPACING THE PINNED LINKS AND RECENT ACTIVITY */
+/* SPACING PINNED TABS FROM RECENT ACTIVITY */
+.collapsible-section {
+  padding-top: 20px !important; /* RECENT ACTIVITY GO DOWN */
+  padding-bottom: 0 !important; /* RECENT ACTIVITY GO UP */
+}
+/* SPACING PINNED TABS AND RECENT ACTIVITY */
+.non-collapsible-section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: -20px !important;
+}

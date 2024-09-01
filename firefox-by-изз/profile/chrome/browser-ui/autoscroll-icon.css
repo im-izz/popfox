@@ -1,0 +1,3 @@
+.autoscroller{ --autoscroll-background-image: url("icons/autoscroll.svg") !important; }
+.autoscroller[scrolldir="NS"]{ --autoscroll-background-image: url("icons/vertical.svg") !important; }
+.autoscroller[scrolldir="EW"]{ --autoscroll-background-image: url("icons/horizontal.svg") !important; }

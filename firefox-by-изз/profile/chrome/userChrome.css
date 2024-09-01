@@ -1,0 +1,253 @@
+/* CONTEXT MENU BUTTONS */
+@import url("context-menu/blank-context.css");
+@import url("context-menu/frame-context.css");
+@import url("context-menu/image-context.css");
+@import url("context-menu/input-context.css");
+@import url("context-menu/link-context.css");
+@import url("context-menu/main-hamburger.css");
+@import url("context-menu/main-menubar.css");
+@import url("context-menu/media-context.css");
+@import url("context-menu/newtab-containers.css");
+@import url("context-menu/opt_noSendToDevice.css");
+@import url("context-menu/select-context.css");
+@import url("context-menu/sidebar-context.css");
+@import url("context-menu/sidebar-header.css");
+@import url("context-menu/source-context.css");
+@import url("context-menu/tab-context.css");
+@import url("context-menu/toolbar-context.css");
+@import url("context-menu/urlbar-context.css");
+/* ICONS */
+/*@import url("browser-ui/autoscroll-icon.css");*/
+/* ROUNDED BROWSER PAGE */
+@import url("browser-ui/rounded-corners-page-view.css");
+/* SIDEBAR */
+@import url("browser-ui/floating-sidebar.css");
+/* CONTEXT MENU */
+@import url("context-menu/rounded-context-and-popup-menu.css");
+/* NAVIGATION & BOOKMARKS BAR AUTO COLLAPSE */
+@import url("browser-ui/nav-and-bookmark-bar-popup.css");
+/* FLOATING FIND BAR */
+@import url("browser-ui/find-bar-floating.css");
+/* CLEAN UBLOCK ICON */
+@import url("browser-ui/ublock-icon-change.css");
+/* DOWNLOAD PROGRESS BAR */
+@import url("browser-ui/download-progress-bar.css");
+/*  */
+@import url("");
+
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+    #urlbar[breakout][breakout-extend] {
+        top: calc((var(--urlbar-container-height) - var(--urlbar-height)) / 2) !important;
+        left: 15% !important;
+        width: 70% !important;
+    }
+
+    #urlbar[breakout][breakout-extend] > #urlbar-input-container,
+    #urlbar[breakout][breakout-extend] > .urlbar-input-container {
+        height: var(--urlbar-height) !important;
+        padding-block: 0 !important;
+        padding-inline: var(--urlbar-container-padding) !important;
+    }
+}
+
+/* hiding tab stuff */
+.tab-background {
+	min-height: 0 !important;
+}
+.tabbrowser-tab[fadein] {
+	max-width: 100vw !important;
+}
+.tab-text {
+	margin: 0 auto !important;
+}
+
+/* Center tab icon */
+.tab-icon-stack {
+	margin-inline-start: auto;
+}
+.tab-label-container {
+	max-width: min-content;
+	margin-inline-end: auto;
+}
+
+/* Fix empty space between tabs */
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"]{
+	width: 30px !important;
+}
+
+/* Keeps the .titlebar-spacer[type="pre-tabs"] and [type="post-tabs"] consistent in all window sizes */
+:root:not([sizemode="normal"]) .titlebar-spacer[type="pre-tabs"]{
+	display: block !important;
+}
+@media (max-width: 500px) {
+	.titlebar-spacer[type="post-tabs"] {
+		display: block !important;
+	}
+}
+
+/* Deactivating close, minimize and maximize buttons */
+.tab-close-button,
+#TabsToolbar .toolbarbutton-1,
+.titlebar-buttonbox-container{
+	display: none !important;
+}
+
+/* Custom font */
+* {
+	font-family: SF Mono !important;
+}
+
+/*
+Items inside menu
+menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
+	background-color: #242429 !important;
+}
+*/
+
+#back-button,
+#forward-button {
+  display: none !important;
+}
+#star-button-box { display: none !important; }
+#PanelUI-button { display: none !important; }
+#tracking-protection-icon-container {
+    display: none !important;
+}
+#unified-extensions-button[attention] > .toolbarbutton-icon,
+.unified-extensions-item[attention] > .unified-extensions-item-action-button.toolbarbutton-1 > .toolbarbutton-badge-stack {
+  background-image: none !important;
+}
+.tabbrowser-tab > .tab-stack > .tab-content[pinned][titlechanged]:not([selected="true"]) {
+  background-image: none !important;
+}
+#identity-box.extensionPage {
+  display: none !important;
+}
+#blocked-permissions-container {
+  display: none !important;
+}
+#urlbar .urlbar-input-box { 
+     text-align: center !important;
+}
+#identity-box[pageproxystate="valid"].localResource #identity-icon-box {
+    display: none !important;
+}
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon-box,
+#identity-box[pageproxystate="valid"].verifiedDomain #permissions-granted-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon-box,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #permissions-granted-icon,
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-permission-box:not([hasSharingIcon]),
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-permission-box:not([hasSharingIcon]) {
+    display: none !important;
+}
+
+#identity-box[pageproxystate="valid"].verifiedDomain #permissions-granted-icon + box:has(image[sharing="true"]),
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #permissions-granted-icon + box:has(image[sharing="true"]) {
+  margin-left: -4px !important;
+}
+#nav-bar {
+		margin-right: 56px !important;
+		margin-left: 56px !important;
+		border-radius: 6px !important;
+		padding-left: 0px !important;
+}
+.tabbrowser-tab[label="New Tab"] .tab-icon-image{
+  display: none !important;
+}
+.tabbrowser-tab[label="New Private Tab"] .tab-icon-image{
+  display: none !important;
+}
+.tabbrowser-tab[label="about:privatebrowsing"] .tab-icon-image{
+  display: none !important;
+}
+#urlbar-one-offs-header-label{ 
+	display: none !important;
+}
+#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage) > .identity-box-button, #urlbar-label-box {  
+  display: none !important;
+}
+#unified-extensions-view > .panel-header{
+  display: none !important;
+}
+#unified-extensions-view > .panel-header + toolbarseparator{
+  display: none !important;
+}
+#unified-extensions-view{
+  margin-top: 4px !important;
+}
+#unified-extensions-panel {
+  margin-top: 4px !important;
+}
+.unified-extensions-item-menu-button.subviewbutton{
+  padding: 0px !important;
+  margin-inline-end: 0 !important;
+}
+.unified-extensions-item-action-button.subviewbutton{
+  padding-block: 6px !important;
+}
+.unified-extensions-item-menu-button.subviewbutton > .toolbarbutton-icon{
+  padding: 4px !important;
+}
+.unified-extensions-item-message-deck{
+  display: none
+}
+#unified-extensions-view > vbox > vbox > .unified-extensions-item{
+  padding-block: 0px !important;
+}
+#unified-extensions-panel .unified-extensions-item{
+  margin-block: 0 !important;
+}
+.private-browsing-indicator-icon {
+  display: none !important;
+}
+
+/* SHOWING READER VIEW EVERYWHERE */
+
+#reader-mode-button {
+  display: flex !important;
+  visibility: visible !important;
+}
+/* HIDING READER VIEW ON "about:" PAGES AND LOCAL FILES */
+:root:has(#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage),#identity-box.localResource) #reader-mode-button {
+  display: none !important;
+}
+
+
+/* HIDE SIDEBAR SCROLLBAR */
+
+.scrollbar-topmost {
+  display: none !important;
+}
+
+/* Context Menu Customization */
+/* #D0C7FF80 */
+menupopup, panel {
+  --panel-border-radius: 10px !important;
+  --panel-border-color: #EFECFF65 !important;
+  --menu-icon-opacity: 50% !important;
+}
+menu, menuitem {
+  &:where([_moz-menuactive]:not([disabled="true"])){
+    background-color: #EFECFF25 !important;
+  }
+}
+menu, menuitem {
+	&:where([_moz-menuactive]:not([disabled="true"])){
+		color: light-dark(#ffffff, #ffffff) !important;
+	}
+}
+
+/* HIDE TABS MARGIN */
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+  display: none !important;
+}
+:root:not([sizemode="normal"]) .titlebar-spacer[type="pre-tabs"] {
+  display: none !important;
+}
+#tabbrowser-tabs {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+:root{
+  --lwt-tab-line-color: rgba(0, 0, 0, 0.0) !important;
+}

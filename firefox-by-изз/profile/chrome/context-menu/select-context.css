@@ -1,0 +1,37 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: userChrome.css tweaks to remove context menu items in Firefox.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** select-context.css ***/
+/*** When right-clicking on selected text or selected object ***/
+
+/* #context-openlinkincurrent,            /* Open Link                        */
+/* #context-copy,                         /* Copy                             */
+/* #context-selectall,                    /* Select All                       */
+/* #context-print-selection,              /* Print Selection                  */
+/* #context-sep-selectall,                /************ Separator *************/
+/* #context-take-screenshot,              /* Take Screenshot                  */
+/* #context-sep-screenshots,              /************ Separator *************/
+/* #context-searchselect,                 /* Search [Google] for "[selected]" */
+/* #context-translate-selection,          /* Translate Selection to [English] */
+/* #frame-sep,                            /************ Separator *************/
+/* #context-viewpartialsource-selection,  /* View Selection Source            */
+/* #context-inspect-a11y,                 /* Inspect Accessibility Properties */
+/* #context-inspect,                      /* Inspect (Q)                      */
+
+#context-openlinkincurrent,
+#context-copy,
+#context-print-selection,
+#context-selectall,
+#context-sep-selectall,
+#context-take-screenshot,
+#context-sep-screenshots,
+#context-translate-selection,
+#frame-sep,
+#context-viewpartialsource-selection,
+#context-inspect-a11y,
+#context-inspect
+    { display:none !important; }

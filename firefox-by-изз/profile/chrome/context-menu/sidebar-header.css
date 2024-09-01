@@ -1,0 +1,37 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: userChrome.css tweaks to remove context menu items in Firefox.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** sidebar-header.css ***/
+/*** When left-clicking on the sidebar header ***/
+
+/* #sidebar-header,                                     /* Hide sidebar header completely (use shortcuts only) */
+/* #sidebar-close,                                      /* Hide close button (X)                               */
+/* #sidebar-switcher-target,                            /* Hide sidebar switcher                               */
+
+/* TODO: Where is the following? Cannot reproduce */
+/* #sidebar-switcher-bookmarks,                         /* Bookmarks                             */
+/* #sidebar-switcher-history,                           /* History                               */
+/* #sidebar-switcher-tabs,                              /* Synced Tabs                           */
+/* #sidebar-switcher-tabs + toolbarseparator,           /*************** Separator ***************/
+/* #sidebar-extensions-separator,                       /*** Separator (after possible addons) ***/
+/* #sidebar-reverse-position,                           /* Move Sidebar to Right / Left          */
+/* #sidebar-reverse-position + toolbarseparator,        /************** Separator ****************/
+/* toolbarbutton[oncommand="SidebarUI.hide()"],         /* Close Sidebar                         */
+
+
+#sidebar-switcher-bookmarks,
+#sidebar-switcher-history,
+#sidebar-switcher-tabs,
+#sidebar-switcher-tabs + toolbarseparator,
+#sidebar-extensions-separator,
+#sidebar-reverse-position + toolbarseparator,
+toolbarbutton[oncommand="SidebarUI.hide()"],
+#sidebarMenu-popup > menuseparator,
+#sidebarswitcher_menu__446900e4-71c2-419f-a6a7-df9c091e268b_-sidebar-action,
+#sidebarswitcher_menu_jid0-adyhmvsp91nuo8prv0mn2vkeb84_jetpack-sidebar-action,
+#leave_this_dummy_here
+    { display:none !important; }

@@ -1,0 +1,23 @@
+#tabbrowser-tabpanels {
+  browser[type="content"] {
+    border-radius: 12px !important;
+    margin: 0 6px 6px !important;
+  }
+}
+/*
+.browserStack {
+  background-color: var(--lwt-accent-color) !important;
+}*/
+/*
+#tabbrowser-tabpanels {
+  background: var(--lwt-accent-color) !important;
+}*/
+:root {
+  &[privatebrowsingmode="temporary"] {
+    --tabpanel-background-color: var(--newtab-background-color) !important;
+  }
+}
+#private-browsing-indicator-with-label {
+  margin-inline-end: 8px !important;
+  margin-inline-start: 0 !important;
+}

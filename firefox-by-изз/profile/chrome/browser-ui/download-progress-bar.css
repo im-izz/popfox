@@ -1,0 +1,23 @@
+/* DOWNLOAD PROGRESS BAR */
+
+#downloads-indicator-progress-outer{
+  position: fixed !important;
+  display: block !important;
+  border: unset !important;
+  top: 32px !important;  /*modify this to move the bar*/
+  left: 0px !important;
+  border-radius: 3px !important;
+  height: 2px !important; /*thickness*/
+  width: 111% !important;
+  margin-left: -11.1%;
+  background: #1b1e22 !important;  /*background color*/
+}
+#downloads-indicator-progress-inner{
+  border-radius: 3px !important;
+  height: 2px !important; /*thickness*/
+  background: #d0c7ff !important; /*foreground color*/
+  width: var(--download-progress-pcent) !important;
+}
+#downloads-button[progress] > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-icon{
+  visibility: visible !important;
+}

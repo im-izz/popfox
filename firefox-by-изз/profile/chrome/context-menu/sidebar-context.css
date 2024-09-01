@@ -1,0 +1,46 @@
+/*AGENT_SHEET*/
+
+/*********************************************************************************************
+  simpleMenuWizard: userChrome.css tweaks to remove context menu items in Firefox.
+  https://github.com/stonecrusher/simpleMenuWizard
+**********************************************************************************************
+
+/*** sidebar-context.css ***/
+/*** When right-clicking on items in bookmarks- or history sidebar ***/
+
+/* #placesContext_show_bookmark\:info,            /* Edit Bookmark…                    */
+/* #placesContext_show\:info,                     /* Edit…                             */
+/* #placesContext_show_folder\:info,              /* Edit Folder…                      */
+/* #placesContext_deleteBookmark,                 /* Delete Bookmark                   */
+/* #placesContext_deleteFolder,                   /* Delete Folder                     */
+/* #placesContext_delete,                         /* Delete                            */
+/* #placesContext_delete_history,                 /* Delete Page                       */
+/* #placesContext_deleteHost,                     /* Forget About This Site            */
+/* #placesContext_deleteSeparator,                /************* Separator *************/
+/* #placesContext_paste_group,                    /* Paste                             */
+/* #placesContext_editSeparator,                  /************* Separator *************/
+/* #placesContext_new\:bookmark,                  /* Add Bookmark…                     */
+/* #placesContext_new\:folder,                    /* Add Folder…                       */
+/* #placesContext_new\:separator,                 /* Add Separator                     */
+/* #placesContext_newSeparator,                   /************* Separator *************/
+/* #placesContext_paste,                          /* Paste                             */
+/* #placesContext_pasteSeparator,                 /************* Separator *************/
+/* #placesContext_createBookmark,                 /* Bookmark Page…                    */
+/* #placesContext_showAllBookmarks,               /* Manage Bookmarks                  */
+
+#placesContext_open,
+#placesContext_openBookmarkContainer\:tabs,
+#placesContext_open\:newtab,
+#placesContext_open\:newcontainertab,
+#placesContext_openContainer\:tabs,
+#placesContext_open\:newwindow,
+#placesContext_open\:newprivatewindow,
+#placesContext_showInFolder,
+#placesContext_openSeparator,
+#placesContext_show\:info,
+#placesContext_removeTag,
+#placesContext_sortBy\:name,
+#placesContext_cut,
+#placesContext_copy,
+#placesContext_createBookmark
+    { display:none !important; }

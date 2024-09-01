@@ -1,0 +1,8 @@
+/* HIDE PRIVATE BROWSING TITLE BAR ICON */
+@-moz-document url("about:home"),url("about:newtab"),url("about:privatebrowsing") {
+  main { margin-top: var(--newtab-search-icon-position-top, 1%) !important; }
+}
+/* HIDE PRIVATE BROWSING NEW TAB PAGE INFO */
+@-moz-document url("about:privatebrowsing") {
+  .info { display: none !important; }
+}

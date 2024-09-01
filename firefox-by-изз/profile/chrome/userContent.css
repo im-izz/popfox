@@ -1,0 +1,84 @@
+@import url("browser-content/multi_column_addons.css");
+@import url("browser-content/new-tab-page-customization.css");
+@import url("browser-content/compact-about-config.css");
+@import url("browser-content/private-browsing.css");
+@import url("");
+
+/* CUSTOM FONT EVERYWHERE */
+
+@-moz-document url-prefix(about:) {
+	* {
+		font-family: SF Mono !important;
+	}
+}
+
+/* IDK */ /*
+.outer-wrapper .ds-top-sites .top-sites .top-sites-list {
+  margin: 0 0 !important;
+}*/
+
+:root{
+  --newtab-weather-background-color: light-dark(rgba(40, 43, 47, 0.7), rgba(40, 43, 47, 0.7)) !important;
+}
+:root{
+  --newtab-background-color: #494b4e00 !important;
+  --newtab-element-hover-color: #282b2f !important;
+}
+:root[lwt-newtab-brighttext] {
+  --newtab-background-color-secondary: #282b2f !important;
+}
+:root {
+  --newtab-primary-action-background: light-dark(#0061e0, #EFECFF) !important;
+}
+
+@media (min-width: 610px) {
+	.outer-wrapper .ds-top-sites .top-sites .top-sites-list {
+		  display: grid !important;
+  		grid-template-columns: repeat(3,auto) !important;
+	    margin: 0 auto !important;
+	}
+}
+
+@media (min-width: 866px) {
+	.outer-wrapper .ds-top-sites .top-sites .top-sites-list {
+		  display: grid !important;
+		  grid-template-columns: repeat(8,auto) !important;
+	    margin: 0 auto !important;
+	}
+}
+
+@media (min-width: 610px) {
+  .ds-highlights .section .section-list {
+    width: inherit !important;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 866px) {
+  .ds-highlights .section .section-list {
+    width: inherit !important;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 610px) {
+  .body-wrapper.on {
+    width: inherit !important;
+    align-self: center !important;
+  }
+}
+@media (min-width: 866px) {
+  .body-wrapper.on {
+    width: inherit !important;
+    align-self: center !important;
+  }
+}
+
+@media (min-width: 610px) {
+  .top-sites-list .hide-for-narrow {
+    display: none !important;
+  }
+}
+@media (min-width: 866px) {
+  .top-sites-list .hide-for-narrow {
+    display: inline-block !important;
+  }
+}

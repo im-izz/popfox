@@ -1,0 +1,5 @@
+menupopup, panel{
+	--panel-background: black !important;
+	--panel-border-radius: 8px !important;
+	--panel-color: white !important;
+}
