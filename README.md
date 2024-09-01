@@ -22,17 +22,17 @@ Configs includes user.js and chrome folder for the theme.
 
 - Extensions
 
-  Tabliss + [Config](firefox-by-изз/tabliss-template.json)
+  [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) + [Config](firefox-by-изз/tabliss-template.json)
 
-  uBlock
+  [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
-  FastForward
+  [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/)
 
-  Decentraleyes
+  [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
 
 - Themes
 
   Shades of Purple (Made by me)
 
-  Dark Space - Dynamic Theme
+  [Dark Space - Dynamic Theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
