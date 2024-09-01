@@ -6,11 +6,11 @@
 
 Configs includes user.js and chrome folder for the theme.
 
-![[ASSETS/show-record.mp4]]
+https://github.com/im-izz/popfox/blob/162b6d5959a462b5a5ac90b18fd2e69b6bae5ad8/ASSETS/show-record.mp4
 
 ## Download Progress Bar!
 
-![[ASSETS/download-record.mp4]]
+https://github.com/im-izz/popfox/blob/162b6d5959a462b5a5ac90b18fd2e69b6bae5ad8/ASSETS/download-record.mp4
 
 ## Icons Only Show When They Are Needed.
 

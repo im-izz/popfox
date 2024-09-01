@@ -55,6 +55,10 @@
  .section-title { display: none !important; }
 }
 
+/* HIDE THE GEAR ICON */
+.icon.icon-settings {
+  background-image: url("") !important;
+}
 
 /* CUSTOMIZING PINNED SITES */
 

@@ -163,7 +163,10 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
 #urlbar-one-offs-header-label{ 
 	display: none !important;
 }
-#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage) > .identity-box-button, #urlbar-label-box {  
+#identity-box[pageproxystate="valid"]:is(.chromeUI, .extensionPage) > .identity-box-button, #urlbar-label-box {  
+  display: none !important;
+}
+#identity-icon-label {
   display: none !important;
 }
 #unified-extensions-view > .panel-header{
@@ -207,11 +210,13 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
   display: flex !important;
   visibility: visible !important;
 }
-/* HIDING READER VIEW ON "about:" PAGES AND LOCAL FILES */
-:root:has(#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage),#identity-box.localResource) #reader-mode-button {
+/* HIDING READER VIEW ON "about:" PAGES */
+:root:has(#identity-box[pageproxystate="valid"]:is(.chromeUI, .extensionPage)) #reader-mode-button {
   display: none !important;
 }
-
+:root:has(#identity-box[pageproxystate="invalid"]) #reader-mode-button, #urlbar-zoom-button {
+  display: none !important;
+}
 
 /* HIDE SIDEBAR SCROLLBAR */
 
