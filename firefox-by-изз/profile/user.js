@@ -344,6 +344,8 @@ user_pref("browser.translations.automaticallyPopup", false);
 user_pref("browser.translations.enable", false);
 user_pref("browser.translations.panelShown", false);
 user_pref("browser.translations.select.enable", false);
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 1750);
 
 
 // userChrome-userContent
