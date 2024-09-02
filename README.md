@@ -59,6 +59,8 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
   [Dark Space - Dynamic Theme](https://addons.mozilla.org/en-US/firefox/addon/nicothin-space/)
 
+- "exclusive-wallpapers" are wallpapers made by me to be used with this theme, no re-uploading or selling. All rights reserved
+
 
 ## Features
 
