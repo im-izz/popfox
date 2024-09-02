@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="ASSETS/icon-white.png" alt="POPfox" width="269" height="269">
+  <img src="ASSETS/icon-black.png#gh-light-mode-only" alt="Popfox logo" width="269" height="269"/>
+  <img src="ASSETS/icon-white.png#gh-dark-mode-only" alt="Popfox logo" width="269" height="269"/>
 </p>
+
 
 # Private, Secure and Minimalistic Firefox
 
