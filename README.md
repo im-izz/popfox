@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
   - Distraction Free Browsing There are NO Scrollbars!
 
-  - Efficient configs That Can Help You With Anything. So, no annoying firefox hardening stuff that breaks websites.
+  - Efficient configs That Can Let You Do Anything. So, no annoying firefox hardening stuff that breaks websites.
 
   - It's the [FASTEST](https://github.com/yokoffing/Betterfox) + My own modifications to make it even more better.
 
