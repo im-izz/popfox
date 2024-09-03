@@ -12,6 +12,24 @@
 	}
 }
 
+/* HIDING SCROLLBARS EVERYWHERE */
+
+@namespace url("http://www.w3.org/1999/xhtml");
+:root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
+*{ scrollbar-width: none }
+
+.styled-scrollbars:hover {
+  scrollbar-width: none !important;
+}
+.styled-scrollbars{
+  scrollbar-width: none !important;
+}
+@media{
+  addon-card .addon-description {
+    scrollbar-width: none !important;
+  }
+}
+
 /* IDK */ /*
 .outer-wrapper .ds-top-sites .top-sites .top-sites-list {
   margin: 0 0 !important;
@@ -81,4 +99,26 @@
   .top-sites-list .hide-for-narrow {
     display: inline-block !important;
   }
+}
+
+/* FIX SPACING WITH THE NEW WEATHER WIDGET */
+
+@media (min-width: 610px) {
+  .has-weather.no-search .outer-wrapper {
+    padding-top: 0px !important;
+  }
+}
+.has-weather.no-search .outer-wrapper {
+  padding: 0 !important;
+}
+@media (min-width: 610px) {
+  .outer-wrapper.ds-outer-wrapper-breakpoint-override {
+    padding: 0 !important;
+  }
+}
+.outer-wrapper.ds-outer-wrapper-breakpoint-override {
+  padding: 0 !important;
+}
+.outer-wrapper {
+  padding: 0 !important;
 }

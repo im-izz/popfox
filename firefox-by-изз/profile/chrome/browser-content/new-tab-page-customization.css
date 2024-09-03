@@ -11,24 +11,6 @@
   .fake-textbox{ color: rgb(200,200,200) !important } 
 }
 
-/* HIDING SCROLLBARS EVERYWHERE */
-
-@namespace url("http://www.w3.org/1999/xhtml");
-:root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
-*{ scrollbar-width: none }
-
-.styled-scrollbars:hover {
-  scrollbar-width: none !important;
-}
-.styled-scrollbars{
-  scrollbar-width: none !important;
-}
-@media{
-  addon-card .addon-description {
-    scrollbar-width: none !important;
-  }
-}
-
 
 /* NEW TAB PAGE WALLPAPER */
 
@@ -118,7 +100,7 @@ main section {
   margin-bottom: 0 !important;
 }
 .top-sites-list {
-  /*! padding-top: -1px !important; */
+  padding-top: 0 !important;
 }
 .top-site-outer .top-site-inner > a {
   padding: 0 !important;
@@ -130,7 +112,7 @@ main section {
   padding: 0 !important;
 }
 .body-wrapper.on {
-  margin-bottom: 0px !important;
+  margin-bottom: 100px !important;
 }
 /* CUSTOMIZE PINNED SITES ICONS */
 .top-site-outer .tile .icon-wrapper {
@@ -190,11 +172,11 @@ main section {
 }
 /* CARD SITE NAME COLOR */
 .card-outer .card-host-name {
-  color: light-dark(rgba(24, 24, 24, 0.7), rgba(251, 251, 251, 0.7)) !important;
+  color: light-dark(rgba(24, 24, 24, 0.6), rgba(251, 251, 251, 0.6)) !important;
 }
 /* CARD ACTIVITY ICON */
 .compact-cards .card-outer .card-context .card-context-icon {
-  fill: light-dark(rgba(24, 24, 24, 0.7), rgba(251, 251, 251, 0.7)) !important;
+  fill: light-dark(rgba(24, 24, 24, 0.5), rgba(251, 251, 251, 0.5)) !important;
 }
 /* CARD PREVIEW SEPARATOR WIDTH AND COLOR */
 .card-outer .card-preview-image-outer::after {
@@ -202,7 +184,7 @@ main section {
 }
 /* CARD SIZE */
 .ds-highlights .section .section-list .card-outer {
-  height: 164px !important;
+  height: 160px !important;
 }
 /* CARDS WIDTH & CENTER ALIGNING */
 .ds-highlights.sections-list {
@@ -216,7 +198,7 @@ main section {
   inset-inline-end: 2px !important;
 }
 .card-context-icon.icon {
-  background-size: 12px !important;
+  background-size: 8.5pt !important;
 }
 /*.compact-cards .card-outer .card-context .card-context-icon {
   fill: var(--newtab-text-secondary-color) !important;
@@ -247,4 +229,46 @@ main section {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-bottom: -20px !important;
+}
+
+/* WEATHER WIDGET CUSTOMIZATIONS */
+.weatherSponsorText {
+  display: none !important;
+}
+.weatherButtonContextMenuWrapper {
+  display: none !important;
+}
+.weatherCard:hover {
+  box-shadow: none !important;
+  background: #0000 !important;
+}
+.weatherInfoLink:hover, .weatherButtonContextMenuWrapper:hover {
+  background-color: #0000 !important;
+}
+
+/* DISABLE SCROLLING ON NEW TAB PAGE */
+
+.activity-stream {
+  overflow: hidden !important;
+}
+
+/* CARD CUSTOMIZATION */
+.ds-highlights .section .section-list .card-outer {
+  height: 158px !important;
+}
+.compact-cards .card-outer .card-context {
+  padding: 0 8px 8px 8px !important;
+  margin-right: 166px !important;
+  margin-top: 2px !important;
+}
+.compact-cards .card-outer .card-preview-image-outer {
+  height: 104px !important;
+}
+.ds-highlights .section .section-list .card-outer .card-host-name {
+  margin-left: 16px !important;
+  padding-top: 0 !important;
+  margin-top: -3px !important;
+}
+.card-outer .card-text {
+  margin-top: 4px !important;
 }

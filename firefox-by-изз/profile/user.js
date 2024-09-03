@@ -346,6 +346,8 @@ user_pref("browser.translations.panelShown", false);
 user_pref("browser.translations.select.enable", false);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 1750);
+user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "c");
+user_pref("browser.urlbar.weather.ignoreVPN", true);
 
 
 // userChrome-userContent
