@@ -245,14 +245,23 @@ main section {
 .weatherInfoLink:hover, .weatherButtonContextMenuWrapper:hover {
   background-color: #0000 !important;
 }
-
+.weatherCard {
+  scale: 90% !important;
+  margin: -7px 0 0 -7px !important;
+}
+.weatherCard a {
+  color: light-dark(#000000b0, #ffffffb0) !important;
+}
+.weatherIcon {
+  opacity: 77% !important;
+}
 /* DISABLE SCROLLING ON NEW TAB PAGE */
 
 .activity-stream {
   overflow: hidden !important;
 }
 
-/* CARD CUSTOMIZATION */
+/* MORE CARD CUSTOMIZATION */
 .ds-highlights .section .section-list .card-outer {
   height: 158px !important;
 }
