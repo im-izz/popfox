@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/f68ca66d-f042-4529-8a0a-1da803331eeb
 https://github.com/user-attachments/assets/e1fe01e8-c039-4cd8-a40c-6f9659cafbfd
 
 
-## Icons Only Show POP When They Are Needed.
+## Icons Only ~~Show~~ POP When They Are Needed.
 
 - Connection not secure icon
 

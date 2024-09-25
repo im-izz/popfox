@@ -262,3 +262,16 @@ menu, menuitem {
   background-color: #0000 !important;
   padding-inline: 2px !important;
 }
+
+/* CLEAN AF PWA */
+#main-window[chromehidden="menubar toolbar directories extrachrome "]{
+  #navigator-toolbox{
+    display: none !important;
+  }
+  #tabbrowser-tabpanels {
+  browser[type="content"] {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    }
+  }
+}

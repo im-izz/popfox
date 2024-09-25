@@ -345,10 +345,11 @@ user_pref("browser.translations.enable", false);
 user_pref("browser.translations.panelShown", false);
 user_pref("browser.translations.select.enable", false);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
-user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 1750);
+user_pref("gfx.font_rendering.cleartype_params.gamma", 1750);
 user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "c");
 user_pref("browser.urlbar.weather.ignoreVPN", true);
-
+user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", "");
+user_pref("gfx.font_rendering.cleartype_params.enhanced_contrast", 50);
 
 // userChrome-userContent
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);

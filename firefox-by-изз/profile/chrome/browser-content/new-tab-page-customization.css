@@ -232,6 +232,7 @@ main section {
 }
 
 /* WEATHER WIDGET CUSTOMIZATIONS */
+
 .weatherSponsorText {
   display: none !important;
 }
@@ -242,12 +243,12 @@ main section {
   box-shadow: none !important;
   background: #0000 !important;
 }
-.weatherInfoLink:hover, .weatherButtonContextMenuWrapper:hover {
+.weatherInfoLink:hover, .weatherInfoLink:active, .weatherButtonContextMenuWrapper:hover, .weatherButtonContextMenuWrapper:active, .weatherNotAvailable:hover, .weatherNotAvailable:active {
   background-color: #0000 !important;
 }
 .weatherCard {
   scale: 90% !important;
-  margin: -7px 0 0 -7px !important;
+  margin: 4px 0 0 1px !important;
 }
 .weatherCard a {
   color: light-dark(#000000b0, #ffffffb0) !important;
@@ -255,13 +256,19 @@ main section {
 .weatherIcon {
   opacity: 77% !important;
 }
+
+/* HIDE WARNING ICON */
+.icon.icon-info-warning {
+  display: none !important;
+}
+
 /* DISABLE SCROLLING ON NEW TAB PAGE */
 
 .activity-stream {
   overflow: hidden !important;
 }
 
-/* MORE CARD CUSTOMIZATION */
+/* BETTER CARD CUSTOMIZATION UPDATE */
 .ds-highlights .section .section-list .card-outer {
   height: 158px !important;
 }
