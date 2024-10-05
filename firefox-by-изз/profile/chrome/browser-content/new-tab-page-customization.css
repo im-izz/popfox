@@ -96,7 +96,7 @@
   --newtab-contextual-text-primary-color: light-dark(#000000b0, #ffffffb0) !important;
 }
 /* ALWAYS SET TO 0 */
-main section {
+main section{
   margin-bottom: 0 !important;
 }
 .top-sites-list {
@@ -111,7 +111,7 @@ main section {
 .non-collapsible-section {
   padding: 0 !important;
 }
-.body-wrapper.on {
+#root:has([class="weather active"]) .body-wrapper.on{
   margin-bottom: 100px !important;
 }
 /* CUSTOMIZE PINNED SITES ICONS */

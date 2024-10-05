@@ -94,7 +94,7 @@
 
 /* Custom font */
 * {
-	font-family: SF Mono !important;
+	font-family: 'SF Mono', 'SF Arabic' !important;
 }
 
 /*
@@ -108,7 +108,67 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
 #forward-button {
   display: none !important;
 }
-#star-button-box { display: none !important; }
+
+/* BOOKMARKS */
+#star-button { 
+  display: none !important;
+}
+#star-button-box {
+  width: 0 !important;
+  margin-right: -6px !important;
+  padding-right: calc(var(--urlbar-icon-padding) - 1px) !important;
+}
+
+#editBookmarkPanel > .panel-header {
+  display: none !important;
+}
+#editBookmarkHeaderSeparator{
+  display: none !important;
+}
+#editBMPanel_chooseFolderMenuItem{
+  display: none !important;
+}
+#editBMPanel_chooseFolderSeparator{
+  display: none !important;
+}
+#editBMPanel_bmRootItem{
+  display: none !important;
+}
+.folder-icon > .menu-iconic-left {
+  display: none !important;
+}
+#editBMPanel_folderMenuList, #editBMPanel_toolbarFolderItem {
+  list-style-image: none !important;
+}
+#editBMPanel_folderMenuList{
+  padding-left: 0px !important;
+}
+#editBookmarkPanel .expander-up, #editBookmarkPanel .expander-down{
+  border: 0 !important;
+}
+#editBMPanel_namePicker{
+  border: 0 !important;
+}
+#editBMPanel_folderMenuList {
+  background-color: #232225 !important;
+}
+#editBMPanel_folderTree{
+  background-color: #232225 !important;
+  border: 0 !important;
+}
+#editBMPanel_namePicker {
+  background-color: #232225 !important;
+}
+#editBookmarkPanelBottomContent {
+  display: none !important;
+}
+#editBookmarkPanel > .panel-subview-body > .panel-footer {
+  margin: 0 16px 16px !important;
+}
+
+#reader-mode-button{
+  margin-right: 1px !important;
+}
 #PanelUI-button { display: none !important; }
 #tracking-protection-icon-container {
     display: none !important;
@@ -274,4 +334,14 @@ menu, menuitem {
     margin: 0 !important;
     }
   }
+}
+
+/* SELECTED TABS NO OUTLINE */
+.tab-background[multiselected] {
+    outline-width: 0 !important;
+    outline-offset: 0 !important;
+}
+
+.tab-background[multiselected]:not([selected]){
+  background-color: rgb(208 199 255 / 80%) !important;
 }

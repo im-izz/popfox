@@ -8,7 +8,7 @@
 
 @-moz-document url-prefix(about:) {
 	* {
-		font-family: SF Mono !important;
+		font-family: 'SF Mono' !important;
 	}
 }
 
@@ -16,7 +16,7 @@
 
 @namespace url("http://www.w3.org/1999/xhtml");
 :root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
-*{ scrollbar-width: none }
+*{ scrollbar-width: none !important;}
 
 .styled-scrollbars:hover {
   scrollbar-width: none !important;

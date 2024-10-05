@@ -161,3 +161,13 @@
 /*#managed-bookmarks > .toolbarbutton-icon, #bookmarks-toolbar-placeholder > .toolbarbutton-icon, #PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon[label]:not([label=""]), #PersonalToolbar #import-button > .toolbarbutton-icon, #PersonalToolbar #aboutwelcome-button > .toolbarbutton-icon, #OtherBookmarks.bookmark-item[container] > .toolbarbutton-icon {
   display: none !important;
 }*/
+/* HIDING FOLDER ICON IN BOOKMARKS BAR */
+.bookmark-item[container="true"]:not([label=""]) {
+  .toolbarbutton-icon{
+    display: none !important;
+  }
+}
+/* DISABLE FOLDER ICON WHEN THERE IS NO LABEL */
+.bookmark-item[container="true"]:has([label=""]) {
+  list-style-image: url("") !important;
+}

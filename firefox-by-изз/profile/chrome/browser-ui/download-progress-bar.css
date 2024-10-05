@@ -8,8 +8,8 @@
   left: 0px !important;
   border-radius: 3px !important;
   height: 2px !important; /*thickness*/
-  width: 111% !important;
-  margin-left: -11.1%;
+  width: 110% !important;
+  margin-left: -10.1%;
   background: #1b1e22 !important;  /*background color*/
 }
 #downloads-indicator-progress-inner{
