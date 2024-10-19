@@ -25,7 +25,7 @@
   background-position: top,var(--lwt-background-alignment);
   background-position-y: calc(0px - var(--tab-min-height) - 2*var(--tab-block-margin,0px));
   background-repeat: repeat,var(--lwt-background-tiling);
-  transform: rotateX(90deg);
+  transform: rotateX(89.9deg);
   transform-origin: top;
   transition: transform 100ms linear var(--uc-autohide-toolbar-delay) !important;
   z-index: 2;
@@ -126,6 +126,9 @@
     margin-top: calc(1px - var(--tab-min-height) - 2 * var(--tab-block-margin)) !important;
   }
 }
+
+/* DESIGN */
+
 #PersonalToolbar{
 		margin-right: 106px !important;
 		margin-left: 106px !important;
@@ -143,6 +146,9 @@
 #navigator-toolbox > #PersonalToolbar {
   height: 30px !important;
 }
+
+
+
 /* REMOVE GAB BETWEEN PINNED TABS AND NORMAL TABS */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
   margin-inline-start: 0px !important;

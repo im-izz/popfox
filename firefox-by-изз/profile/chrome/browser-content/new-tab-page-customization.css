@@ -3,7 +3,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:privatebrowsing"){
-  body{background-color: #1B1E22 !important;}
+  body{background-color: light-dark(#efeff3, #1B1E22) !important;}
 }
 /* PRIVATE NEW TAB PAGE */
 @-moz-document url("about:privatebrowsing"){
@@ -11,10 +11,9 @@
   .fake-textbox{ color: rgb(200,200,200) !important } 
 }
 
-
 /* NEW TAB PAGE WALLPAPER */
 
-@-moz-document url("about:home"), url("about:newtab"), url("about:welcome") {
+/* @-moz-document url("about:home"), url("about:newtab"), url("about:welcome") {
   body {
     background: url("exclusive-wallpapers/white-hd.png") center/cover no-repeat fixed !important;
 
@@ -22,7 +21,7 @@
       background: url("exclusive-wallpapers/black-hd.png") center/cover no-repeat fixed !important;
     }
   }
-}
+} */
 
 
 /* HIDING (SEARCH BOX, PINNED SITES ICONS, PIN ICON, FIREFOX LOGO AND WATERMARK) */

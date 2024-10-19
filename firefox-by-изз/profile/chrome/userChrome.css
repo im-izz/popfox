@@ -17,7 +17,7 @@
 @import url("context-menu/toolbar-context.css");
 @import url("context-menu/urlbar-context.css");
 /* ICONS */
-/*@import url("browser-ui/autoscroll-icon.css");*/
+/* @import url("browser-ui/autoscroll-icon.css"); */
 /* ROUNDED BROWSER PAGE */
 @import url("browser-ui/rounded-corners-page-view.css");
 /* SIDEBAR */
@@ -322,6 +322,12 @@ menu, menuitem {
   background-color: #0000 !important;
   padding-inline: 2px !important;
 }
+#identity-box[pageproxystate="invalid"] {
+  & #identity-icon {
+    list-style-image: url() !important;
+    display: none !important;
+  }
+}
 
 /* CLEAN AF PWA */
 #main-window[chromehidden="menubar toolbar directories extrachrome "]{
@@ -345,3 +351,18 @@ menu, menuitem {
 .tab-background[multiselected]:not([selected]){
   background-color: rgb(208 199 255 / 80%) !important;
 }
+
+/* LINK HOVER CUSTOMIZATION */
+
+#statuspanel-label {
+  @media (not (prefers-contrast)) and (not (-moz-platform: linux)) {
+    & {
+      background-color: light-dark(#eaeaec, #1b1e22) !important;
+      color: light-dark(#444, rgb(250,250,250)) !important;
+      border: none !important;
+      border-radius: 5px !important;
+      margin: 12px !important;
+    }
+  }
+}
+

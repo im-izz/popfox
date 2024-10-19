@@ -3,3 +3,17 @@ menupopup, panel{
 	--panel-border-radius: 8px !important;
 	--panel-color: white !important;
 }
+/* AUTO SCROLL ICON FIX */
+
+.autoscroller {
+  appearance: none !important;
+  border: none !important;
+  background-color: transparent !important;
+  -moz-window-shadow: none !important;
+  --autoscroll-background-image: url("chrome://global/skin/icons/autoscroll.svg");
+  --panel-border-color: rgba(0,0,0,.4) !important;
+  --panel-padding: 0 !important;
+  --panel-background: rgba(249,249,250,.8) no-repeat center var(--autoscroll-background-image) !important;
+  --panel-shadow-margin: 4px !important;
+  pointer-events: none !important;
+}
